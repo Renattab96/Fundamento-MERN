@@ -1,0 +1,30 @@
+Super Ninja
+Clase Sensei
+
+Extiende la clase Ninja y crea la clase Sensei. 
+Un Sensei debe tener 200 de salud, 
+10 de velocidad y
+10 de fuerza por defecto.
+Además, un Sensei debe tener un nuevo atributo llamado sabiduría , 
+y el valor predeterminado debe ser 10. Finalmente,
+agrega el métodospeakWisdom(). speakWisdom()
+debe llamar al métododrinkSake() desde la clase Ninja,
+ antes de hacer console.logging un mensaje de sabiduría.
+
+// ejemplo de salida
+const superSensei = new Sensei("Master Splinter");
+superSensei.speakWisdom();
+// -> "Lo que un programador puede hacer en un mes, dos programadores pueden hacerlo en dos meses."
+superSensei.showStats();
+// -> "Nombre: Master Splinter, Salud: 210, Velocidad: 10, Fuerza: 10"
+
+
+Debes crear un commit con el mensaje "[TAREA] sensei" y subirlo a Github.
+
+1-crear una clase Sensei que hereda de la clase Ninja
+
+2-agregar un atributo: sabiduría - predeterminado a 10
+
+3-crear un método: speakWisdom ()
+
+4-crear un método: drinkSake ()
