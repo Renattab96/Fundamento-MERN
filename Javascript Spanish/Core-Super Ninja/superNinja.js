@@ -10,20 +10,21 @@
             sayName(){
                 console.log(`Ninja Cinturon Negro ${this.nombre}`);
             }
-
-            showStas(){
-                console.log(` 1- nombre es :${this.nombre} \n 2- estado de salud esta en ${this.salud} \n 3- fuerza actual es ${this.fuerza}\n 4- velocidad esta en ${this.velocidad} `
-                );
-            }
-
             drinkSake(){
                 console.log("Actualizando mi estado de Salud ...");
                 this.salud += 10;
                 console.log(`Salud Actual: ${this.salud}`);
             }
+            showStas(){
+                console.log(`1- Nombre del Ninja es:${this.nombre} \n2- Datos de Salud: ${this.salud} \n3- Datos de Fuerza: ${this.fuerza}\n4- Datos de Velocidad: ${this.velocidad} `
+                );
+            }
+            
+
+           
             
         }
-            const ninja1 = new Ninja(" Renatta ", 3);
+            const ninja1 = new Ninja(" Renatta Benitez ,\n Dojo Prueba  ", 3);
             ninja1.sayName();
             ninja1.showStas();
             ninja1.drinkSake();
@@ -44,6 +45,6 @@ class Sensei extends Ninja{
 }
 
         
-        const nuevoSensei = new Sensei("Master  Student ");
+        const nuevoSensei = new Sensei(" Renatta Benitez ,");
         nuevoSensei.speakWisdom();
         nuevoSensei.showStas();
