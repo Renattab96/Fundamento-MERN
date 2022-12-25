@@ -32,9 +32,12 @@ const pokemon = Object.freeze([
 
 
 // Una serie de objetos Pokémon donde la identificación es divisible por 3
+  const pokemondiv3 = pokemon.filter( p => p.id [0]);
+ console.log(pokemondiv3)
 
 // una serie de objetos Pokémon que son del tipo "fuego"
-
+//  const pokemonFuego = pokemon.filter( p => p.types[0] === "fire" );
+//  console.log(pokemonFuego)
 
 // Una variedad de objetos Pokémon que tienen más de un tipo
 
@@ -46,7 +49,9 @@ const pokemon = Object.freeze([
 
 // Una matriz con solo los nombres de Pokémon con una identificación mayor que 99
 
+// let consulta1 = pokemon.filter(name => name.id > 99 )
 
+// console.log(consulta1);
 
 // una matriz con solo los nombres del pokémon cuyo único tipo es veneno
 
