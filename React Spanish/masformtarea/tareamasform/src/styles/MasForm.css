@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(225, 222, 222);
+    color: rgb(110, 109, 109);
+    border-radius: 5px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+}
