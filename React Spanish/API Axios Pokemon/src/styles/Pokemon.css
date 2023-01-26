@@ -1,0 +1,19 @@
+.pokecss{
+    border: solid 1px black;
+
+}
+
+button{
+    background-color: indigo;
+    border: none;
+    color: yellow;
+    font-size: large;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ol li{
+    margin: 2px;   
+}
