@@ -68,10 +68,4 @@ app.get ('/api/user/company',(req, res)=>{
     res.json({usuario:usuarios,empresa: empresas})
     
 })
-// Creacion de ruta Guarda POST
 
-app.post('/crearusuario',(req, res)=>{
-    console.log(req.body)
-    res.json(req.body)
-
-})
